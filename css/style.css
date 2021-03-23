@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;   
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+ul li{
+    list-style: none;
+    text-transform: uppercase;
+}
+
+
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+p,li{
+    font-size: 1rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 00.15em;
+}
+
+ h1,h2,h3{
+     margin-bottom: 0.5em;
+     letter-spacing: 0.15em;
+     font-weight: 500;
+ }
+
+ .text-red{
+     color: #e63946
+ }
+.text-light{
+    color: #f4f4f4;
+}
+.text-black{
+    color: rgb(0, 0, 0);
+}
+.text-gray{
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+/* .hader .nav-items a :link{
+    color: white;
+    
+}
+.hader .nav-items a :visited{
+    
+}
+.hader .nav-items a :hover{
+    
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+   
+    background: url(../img/nav.jpg) ;  
+    background: rgba(0, 0, 0, 0.7) rgb,(0,0,0,0.7);  
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 10rem;
+
+}
+.navbar a:link,
+.navbar a:visited
+{
+    color: #f4f4f4;
+}
+.navbar a:hover{
+    border-bottom: 2px solid #fff;
+
+}
+
+.navbar{
+    border: 2px solid white;
+    padding: 1rem;
+    margin-bottom: 1em;
+    /* max-width: 1200px;
+    width: 90%;
+    position: center; */
+}
+.header .logo, 
+ .navbar a{
+    color: white;
+    
+}
+ .navbar .logo{
+     float: left;
+     font-size: 3.5rem;
+     margin-top: 1rem;
+ }
+
+ .navbar .nav-items{
+
+     float: right;
+     font-size: 2.5rem;
+     margin-top: 1rem;
+     padding: 1rem;
+ }
+
+ .navbar .nav-item{
+    
+    padding: 1rem;
+    display: inline-block
+    
+}
+
+ .navbar::after{
+     content: '';
+     display: block;
+     clear: both;
+ }
+
+ .header .navbar 
+ .container{
+     max-width: 1200px;
+     width: 90%;
+     margin: 0 auto;
+ }
+
+ .header-content h1{
+     text-transform: uppercase;
+     font-size: 3.5rem;
+     font-weight: 700;
+
+ }
+ .header-content p{
+     text-transform: uppercase;
+     font-size: 2.5rem;
+ }
+
+.header-content{
+    max-width: 1200px;
+     width: 90%;
+     margin: 0 auto;
+     margin-top: 20rem;
+     background: rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7);  
+     
+}
+.header-content{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 2px solid;
+    border-radius: 10em;
+    background: transparent;
+    color: rgb(114, 13, 245);
+    cursor: pointer
+
+}
+
+.showcase{
+    background: rgb(228, 183, 183);
+    padding: 10rem;
+    margin-bottom: 10rem;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.row{
+    height: 350px;
+    /* border: 2px solid blueviolet; */
+    box-shadow: black 0px,20px;
+    
+}
+.row1{
+    margin-bottom: 10rem;
+    box-shadow: rgb(54, 54, 54);
+}
+
+.row1 .text-box{
+    float: right;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.row2 .image-box{
+    float: right;
+    width: 50%;
+    height: 100%;
+    
+}
+.row2 .text-box{
+    float: left;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.row1 .image-box{
+    float: left;
+    width: 50%;
+    /* height: 100%; */
+     
+}
+ .row img{
+     display: inline-block;
+     height: 100%;
+     object-fit: cover;
+ }
+ .lg-heading{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-align: center;
+
+}
+.text-box p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2em;
+}
+.btn2{
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em;
+    padding: 0.5em;
+    border:2px solid blueviolet;
+    border-radius: 25em;
+    background: transparent;
+    color: rgb(114, 13, 245);
+    cursor: pointer
+    
+}
+
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.features{
+    height: 350px;
+   background-color: rgb(240, 231, 219);
+   padding: 4rem;
+   box-shadow: 0 20px rgba(94, 87, 87, 0.253);
+    
+}
+.features p{
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 2em;
+        /* float: left; */
+}
+.features h2{
+        font-size: 2rem;
+        text-align: center;
+        padding: 2em;
+}
+
+.Adbenturous{
+        float: left;
+        width: 33%;
+        height: 100%;
+        color: #f4f4f4;
+        background-color: rgb(34, 29, 29);
+
+}
+.Lesprice{
+        color: #f4f4f4;
+        background-color: rgb(204, 64, 64);
+        float: left;
+        width: 33%;
+        height: 100%;
+
+}
+.Experience{
+      float: left;
+      width: 33%;
+      height: 100%;
+      color: #f4f4f4;
+        background-color: rgb(34, 29, 29);
+}
+.footer{
+    margin-top: 5rem;
+    padding: 2rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(34, 29, 29);
+}
+
+.about h1{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-size: 2.5rem;
+    font-weight: 500;
+    border-bottom: 4px solid rgb(219, 54, 54);
+}
+.left .list{
+    margin-top: 2.5rem;
+    padding: 2.5rem;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.right .list2{
+    margin-top: 2.5rem;
+    padding: 2.5rem;
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.right li::before{
+    content: '\2713';
+    color: red;
+    font-weight: bold;
+    padding-right: 1rem;
+    display: block;
+    clear: both;
+}
+.left li::before{
+    content: '\2713';
+    color: red;
+    font-weight: bold;
+    padding-right: 1rem;
+    display: block;
+    clear: both;
+}
