@@ -217,6 +217,7 @@ p,li{
     float: right;
     width: 50%;
     height: 100%;
+    text-align: center;
     
 }
 
@@ -224,12 +225,14 @@ p,li{
     float: right;
     width: 50%;
     height: 100%;
+    text-align: right;
     
 }
 .row2 .text-box{
     float: left;
     width: 50%;
     height: 100%;
+    text-align: center;
     
 }
 
@@ -258,7 +261,7 @@ p,li{
     padding: 2em;
 }
 .btn2{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 500;
     text-transform: uppercase;
     margin: 0.5em;
@@ -324,7 +327,7 @@ p,li{
     padding: 2rem;
     text-align: center;
     color: #fff;
-    background-color: rgb(34, 29, 29);
+    background-color: rgb(65, 55, 55);
 }
 
 .about h1{
@@ -354,7 +357,7 @@ p,li{
     color: red;
     font-weight: bold;
     padding-right: 1rem;
-    display: block;
+    display: inline-block;
     clear: both;
 }
 .left li::before{
@@ -362,6 +365,61 @@ p,li{
     color: red;
     font-weight: bold;
     padding-right: 1rem;
+    display: inline-block;
+    clear: both;
+}
+
+.right li::after{
+content: '';
+display: inline-block;
+clear: both;
+} 
+.left  li::after{
+content: '';
+display: inline-block;
+clear: both;
+}
+
+.count-item{
+    float: left;
+    margin-top: 2rem;
+    padding-right: 0.5rem;
+    width: 25%;
+    text-align: center;
+}
+.count-item::after{
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+.count-item span{
+    font-size: 3rem; 
+    color: red;
+}
+.count-item p{
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+    margin-bottom: 2rem;
+    border-bottom: 4px solid rgb(219, 54, 54);
+}
+
+
+
+.about::after{
+    content: '';
     display: block;
     clear: both;
+}
+
+.aboutfooter {
+    background-color: rgb(54, 47, 42);
+    margin-top: 100px;
+    padding: 2.5rem;
+}
+
+.aboutfooter .bannerright{
+    float: right;
+    position: relative;
+    top: -3rem;
+   
 }
