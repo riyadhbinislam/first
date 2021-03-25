@@ -104,7 +104,7 @@ p,li{
 }
 
 .navbar{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 1rem;
     margin-bottom: 1em;
     /* max-width: 1200px;
@@ -422,4 +422,78 @@ clear: both;
     position: relative;
     top: -3rem;
    
+}
+.contact-wrapper{
+    margin: 20px;
+    padding: 1rem;
+    /* background-color: rgb(68, 109, 145); */
+    font-size: 2rem;
+}
+
+.contact .location{
+    height: 860px;
+    width: 48%;
+    float: left;
+    background-color: #d9f4f7;
+    padding: 2em
+
+}
+.contact .form{
+    height: 860px;
+    width: 48%;
+    float: right;
+    background-color: #d9f4f7;
+    padding: 2em
+}
+.contact-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.location img{
+   max-width: 98%; 
+    min-height: 30rem;
+    height: 400px;
+    text-align: center;
+}
+.location p{
+    margin-bottom: 2rem;
+}
+.form h1::after{
+    content: '';
+    display: block;
+    border: 3px solid rgb(204, 64, 64);
+    width: 100%;
+
+}
+.form label{
+    display: block;
+}
+.form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+.form .form-group{
+    margin-bottom: 1.5rem;
+}
+.form label::after{
+    content: '*';
+    color: rgb(204, 64, 64);
+
+}
+.form textarea{
+    width: 100%;
+    height: 300px;
+}
+
+.form-btn{
+    font-size: 2rem;
+    color: rgb(243, 237, 237);
+    background: rgb(219, 54, 54);
+    text-align: center;
+    padding: .5em;
+    border: 1px solid rgb(219, 54, 54);
+    border-radius: 25rem;
+    cursor: pointer;
 }
